@@ -1,0 +1,19 @@
+{
+    "name": "unit6_dsa",
+    "version": "1.0.0",
+    "description": "",
+    "main": "abc.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "server":"nodemon eventScheduler/backendServer/app.js",
+      "start":"nodemon eventScheduler/fronted/index.html"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.3",
+      "node-schedule": "^2.1.0",
+      "nodemon": "^2.0.15"
+    }
+  }
+  
